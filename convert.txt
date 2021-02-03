@@ -1,0 +1,36 @@
+Convert Version 1.10
+---------------------
+Converts uppercase file names to lower case and visa versa.
+
+
+Syntax
+--------
+The program command-line is as follows: 
+
+  convert -u/l <filename>
+
+ -u = convert to uppercase (I wrote it to convert both ways)
+ -l = convert to lowercase
+ <filename> = a filename including wildcards like * and ?      
+
+Story
+--------
+I wrote this small application to convert files from uppercase to lowercase after doing a project with a couple of friends who where using Windows 95.
+
+Everytime they saved files onto thier disks, the filenames were in uppercase, which made it hard to port onto my OS/2 system and the UNIX system which the project was being designed for.
+
+
+History
+--------
+1.1  Fix temperary environment bug.  Also simplified the code.
+- Convert does not work on FAT drives only on HPFS.
+
+1.0  I thought it was such a simple program, there should not be any bugs.
+
+
+Author
+-------
+ John Ballment
+ 98 Kilsay Cres
+ Meadowbrook  Q  4131
+ Australia, plant Earth, the Milky-Way solar system 
